@@ -10,9 +10,16 @@ import java.io.IOException;
 public class RegistroEmpleadosApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(RegistroEmpleadosApplication.class.getResource("empleado-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        System.out.println(
+                RegistroEmpleadosApplication.class.getResource("views/empleado-view.fxml")
+        );
+
+        FXMLLoader fxmlLoader = new FXMLLoader(
+                RegistroEmpleadosApplication.class.getResource("views/empleado-view.fxml")
+        );
+
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Registro de Empleados");
         stage.setScene(scene);
         stage.show();
     }

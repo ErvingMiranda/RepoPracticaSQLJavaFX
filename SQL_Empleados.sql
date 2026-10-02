@@ -13,13 +13,18 @@ CREATE TABLE IF NOT EXISTS empleado (
 	 estado VARCHAR(20) NOT NULL DEFAULT 'Activo'
 );
 
--- Insercion de 5 registro de pruebas.
+-- Insercion de 10 registro de pruebas.
 INSERT INTO empleado (nombres, apellidos, cedula, correo, telefono, cargo, departamento, salario, fecha_contratacion, estado) VALUES
 ('Carlos Alberto', 'Gómez Ruiz', '001-120590-0001A', 'carlos.gomez@empresa.com', '88881111', 'Desarrollador Junior', 'Tecnología', 25000.00, '2023-01-15', 'Activo'),
 ('María Fernanda', 'López Vega', '001-230894-0002B', 'maria.lopez@empresa.com', '88882222', 'Contadora Senior', 'Contabilidad', 32000.00, '2021-06-01', 'Activo'),
 ('José Antonio', 'Martínez Silva', '001-051188-0003C', 'jose.martinez@empresa.com', '88883333', 'Analista de Sistemas', 'Tecnología', 28500.50, '2022-03-10', 'Inactivo'),
 ('Ana Patricia', 'Morales Paz', '001-190299-0004D', 'ana.morales@empresa.com', '88884444', 'Especialista de RRHH', 'Recursos Humanos', 22000.00, '2024-02-01', 'Activo'),
-('Roberto Carlos', 'Hernández Ríos', '001-300792-0005E', 'roberto.h@empresa.com', '88885555', 'Gerente de Ventas', 'Ventas', 45000.00, '2019-11-20', 'Activo');
+('Roberto Carlos', 'Hernández Ríos', '001-300792-0005E', 'roberto.h@empresa.com', '88885555', 'Gerente de Ventas', 'Ventas', 45000.00, '2019-11-20', 'Activo'),
+('Laura Isabel', 'Mendoza Castro', '001-140395-0006F', 'laura.mendoza@empresa.com', '88886666', 'Asistente Administrativa', 'Administración', 19500.00, '2024-05-12', 'Activo'),
+('Miguel Ángel', 'Rojas Pérez', '001-091287-0007G', 'miguel.rojas@empresa.com', '88887777', 'Supervisor de Ventas', 'Ventas', 30000.00, '2020-08-17', 'Activo'),
+('Sofía Elena', 'Castillo Mora', '001-220301-0008H', 'sofia.castillo@empresa.com', '88888888', 'Desarrolladora', 'Tecnología', 27000.00, '2023-09-04', 'Activo'),
+('Daniel Alejandro', 'Navarro Cruz', '001-031191-0009J', 'daniel.navarro@empresa.com', '88889999', 'Auxiliar Contable', 'Contabilidad', 21000.00, '2022-12-01', 'Inactivo'),
+('Gabriela María', 'Ortega Flores', '001-171296-0010K', 'gabriela.ortega@empresa.com', '88880000', 'Analista de RRHH', 'Recursos Humanos', 24000.00, '2021-04-19', 'Activo');
 
 --Registros de pruebaas.
 -- Q1: Mostrar todos los empleados
