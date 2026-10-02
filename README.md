@@ -1,4 +1,4 @@
-# Registro y Consulta de Empleados con JavaFX y PostgreSQL[cite: 1]
+# Registro y Consulta de Empleados con JavaFX y PostgreSQL.
 
 ## Integrantes
 * Erving Josue Miranda Rios
