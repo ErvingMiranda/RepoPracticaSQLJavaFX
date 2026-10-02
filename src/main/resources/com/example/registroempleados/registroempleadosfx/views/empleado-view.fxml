@@ -5,11 +5,11 @@
 
 <AnchorPane prefHeight="710.0" prefWidth="980.0" stylesheets="@../estilos/estilos.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.registroempleados.controller.EmpleadoController">
    <children>
-      <!-- Título Principal -->
+
       <Label layoutX="25.0" layoutY="20.0" styleClass="titulo" text="REGISTRO DE EMPLEADOS" />
       <Separator layoutX="25.0" layoutY="50.0" prefWidth="930.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
 
-      <!-- Columna Izquierda de Campos -->
+
       <Label fx:id="lblNombres" layoutX="35.0" layoutY="70.0" styleClass="label-campo" text="Nombres:" />
       <TextField fx:id="txtNombres" layoutX="175.0" layoutY="65.0" prefHeight="30.0" prefWidth="280.0" promptText="Ej: Roger Marcel" />
 
@@ -25,7 +25,7 @@
       <Label fx:id="lblFecha" layoutX="35.0" layoutY="230.0" styleClass="label-campo" text="Fecha contratación:" />
       <DatePicker fx:id="dpFechaContratacion" layoutX="175.0" layoutY="225.0" prefHeight="30.0" prefWidth="280.0" promptText="Seleccionar fecha" />
 
-      <!-- Columna Derecha de Campos -->
+
       <Label fx:id="lblApellidos" layoutX="510.0" layoutY="70.0" styleClass="label-campo" text="Apellidos:" />
       <TextField fx:id="txtApellidos" layoutX="640.0" layoutY="65.0" prefHeight="30.0" prefWidth="280.0" promptText="Ej: Sequeira Espinoza" />
 
@@ -46,13 +46,13 @@
       <Button fx:id="btnLimpiar" layoutX="300.0" layoutY="275.0" onAction="#limpiarCampos" prefHeight="32.0" prefWidth="110.0" styleClass="btn-secondary" text="Limpiar" />
       <Button fx:id="btnActualizar" layoutX="425.0" layoutY="275.0" onAction="#cargarEmpleados" prefHeight="32.0" prefWidth="130.0" styleClass="btn-info" text="Actualizar tabla" />
 
-      <!-- Nuevo ComboBox para Consultas / Filtros -->
+
       <Label fx:id="lblConsulta" layoutX="575.0" layoutY="282.0" styleClass="label-campo" text="Consulta:" />
       <ComboBox fx:id="cmbConsulta" layoutX="640.0" layoutY="275.0" onAction="#cargarEmpleados" prefHeight="32.0" prefWidth="280.0" promptText="Seleccionar consulta..." />
 
       <Separator layoutX="25.0" layoutY="325.0" prefWidth="930.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
 
-      <!-- Sección de la Tabla -->
+
       <Label layoutX="25.0" layoutY="335.0" styleClass="titulo" text="EMPLEADOS REGISTRADOS" />
 
       <TableView fx:id="tblEmpleados" layoutX="25.0" layoutY="365.0" prefHeight="325.0" prefWidth="930.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="365.0">
