@@ -1,8 +1,8 @@
 # Registro y Consulta de Empleados con JavaFX y PostgreSQL.
 
 ## Integrantes
-* Erving Josue Miranda Rios
-* Roger Marcel Sequeira Espinoza
+* Érving Josué Miranda Ríos
+* Róger Marcel Sequeira Espinoza
 
 ## Fecha de Entrega
 * 01-10-2026
