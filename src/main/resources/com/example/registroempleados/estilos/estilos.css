@@ -61,6 +61,16 @@
     -fx-background-color: #0e7490;
 }
 
+.btn-danger {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #c82333;
+}
+
 .table-view {
     -fx-background-color: white;
     -fx-border-color: #cbd5e1;

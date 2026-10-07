@@ -41,15 +41,14 @@
       <Label fx:id="lblEstado" layoutX="510.0" layoutY="230.0" styleClass="label-campo" text="Estado:" />
       <ComboBox fx:id="cmbEstado" layoutX="640.0" layoutY="225.0" prefHeight="30.0" prefWidth="280.0" promptText="Activo / Inactivo" />
 
-      <Label fx:id="lblConsulta" layoutX="510.0" layoutY="282.0" styleClass="label-campo" text="Consulta:" />
-      <ComboBox fx:id="cmbConsulta" layoutX="640.0" layoutY="275.0" onAction="#cargarEmpleados" prefHeight="32.0" prefWidth="280.0" promptText="Seleccionar consulta..." />
+      <Label fx:id="lblConsulta" layoutX="512.0" layoutY="327.0" styleClass="label-campo" text="Consulta:" />
+      <ComboBox fx:id="cmbConsulta" layoutX="581.0" layoutY="319.0" onAction="#cargarEmpleados" prefHeight="32.0" prefWidth="280.0" promptText="Seleccionar consulta..." />
 
       <!-- Botones de Acción -->
-      <Button fx:id="btnGuardar" layoutX="39.0" layoutY="275.0" onAction="#guardarEmpleado" prefHeight="32.0" prefWidth="110.0" styleClass="btn-primary" text="Guardar" />
-      <Button fx:id="btnLimpiar" layoutX="165.0" layoutY="274.0" onAction="#limpiarCampos" prefHeight="32.0" prefWidth="110.0" styleClass="btn-secondary" text="Limpiar" />
-      <Button fx:id="btnActualizar" layoutX="296.0" layoutY="274.0" onAction="#actualizarTabla" prefHeight="32.0" prefWidth="130.0" styleClass="btn-info" text="Actualizar tabla" />
-
-      <Separator layoutX="25.0" layoutY="325.0" prefWidth="930.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+      <Button fx:id="btnGuardar" layoutX="39.0" layoutY="275.0" onAction="#guardarEmpleado" prefHeight="32.0" prefWidth="90.0" styleClass="btn-primary" text="Guardar" />
+      <Button fx:id="btnActualizar" layoutX="139.0" layoutY="274.0" onAction="#actualizarEmpleado" prefHeight="32.0" prefWidth="110.0" styleClass="btn-info" text="Actualizar" />
+      <Button fx:id="btnEliminar" layoutX="259.0" layoutY="274.0" onAction="#eliminarEmpleado" prefHeight="32.0" prefWidth="100.0" styleClass="btn-danger" text="Eliminar" />      <Button fx:id="btnLimpiar" layoutX="369.0" layoutY="274.0" onAction="#limpiarCampos" prefHeight="32.0" prefWidth="95.0" styleClass="btn-secondary" text="Limpiar" />
+      <Button fx:id="btnActualizarTabla" layoutX="474.0" layoutY="274.0" onAction="#actualizarTabla" prefHeight="32.0" prefWidth="135.0" styleClass="btn-info" text="Actualizar tabla" />
 
       <!-- Sección de la Tabla -->
       <Label layoutX="25.0" layoutY="335.0" styleClass="titulo" text="EMPLEADOS REGISTRADOS" />
